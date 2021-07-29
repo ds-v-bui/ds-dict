@@ -1,0 +1,17 @@
+@import "~vue-material/dist/theme/engine";
+
+@include md-register-theme("dark", (
+        primary: md-get-palette-color(blue, A200),
+        accent: md-get-palette-color(red, A200),
+        theme: dark
+));
+
+.md-theme-dark .github svg {
+  fill: #ffffff !important;
+}
+
+.md-theme-dark .theme i {
+  color: #c3c3c3 !important;
+}
+
+@import "~vue-material/dist/theme/all";
